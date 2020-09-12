@@ -103,7 +103,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-- [x] Deploy the API to Heroku.
+- [x] Deploy the API to [Heroku](https://node-api-sprint-chris-lien.herokuapp.com/)
 - [x] Configure the API to support environment variables.
 - [x] Use middleware for validation of incoming data.
 
@@ -114,3 +114,17 @@ Follow these steps for completing your project.
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete after receiving your pull-request
+-----
+#### Base URL: https://node-api-sprint-chris-lien.herokuapp.com/
+
+| Type        | Link                          | Object                              |
+| ----------- | ------------------------------| ----------------------------------- |
+| GET         | `/api/projects`               | List of All projects
+| GET         | `/api/project/:id/actions`    | List of all of the projects actions
+| GET         | `/api/actions`                | List all actions
+| POST        | `/api/actions`                | Add a new project action
+| POST        | `/api/projects`               | Add a new project
+| PUT         | `/api/projects/:id`           | Edit project with specified ID
+| PUT         | `/api/actions/:id`            | Edit a project action
+| DELETE      | `/api/project/:id`            | Deletes a project
+| DELETE      | `/api/actions/:id`            | Deletes a project action
